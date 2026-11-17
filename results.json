@@ -1,0 +1,12 @@
+{
+  "mfcc_sum_first_clip": -15343.096008760596,
+  "toy_hmm_forward": 0.013230524999999996,
+  "toy_hmm_viterbi": 0.004115999999999999,
+  "toy_ctc_prob": 0.30729999999999996,
+  "wfst_det_states": 7.0,
+  "toy_add1_bigram": 0.16666666666666666,
+  "toy_kn_bigram": 0.175,
+  "wer_sentence1_wav2vec2": 0.5714285714285714,
+  "griffinlim_convergence_30": 0.1370159412148751,
+  "wer_widest_beam": 0.4444444444444444
+}

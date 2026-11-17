@@ -1,0 +1,75 @@
+{
+    "tuning_sentences": [
+        1,
+        2
+    ],
+    "heldout_sentences": [
+        3,
+        4
+    ],
+    "selected_alpha": 0.0,
+    "tuning_results": [
+        {
+            "alpha": 0.0,
+            "average_wer": 0.4107142857142857
+        },
+        {
+            "alpha": 0.1,
+            "average_wer": 0.4107142857142857
+        },
+        {
+            "alpha": 0.2,
+            "average_wer": 0.4107142857142857
+        },
+        {
+            "alpha": 0.4,
+            "average_wer": 0.4107142857142857
+        },
+        {
+            "alpha": 0.6,
+            "average_wer": 0.4107142857142857
+        },
+        {
+            "alpha": 0.8,
+            "average_wer": 0.4107142857142857
+        },
+        {
+            "alpha": 1.0,
+            "average_wer": 0.4107142857142857
+        }
+    ],
+    "heldout_results": {
+        "sentence_3_beam_1": {
+            "reference": "lakshmi will travel from surat to chennai on wednesday",
+            "baseline_hypothesis": "lucks me will dravel from surerd to jenay on wednesday",
+            "baseline_wer": 0.5555555555555556,
+            "lm_hypothesis": "lucks me will dravel from surerd to jenay on wednesday",
+            "lm_wer": 0.5555555555555556,
+            "alpha": 0.0
+        },
+        "sentence_3_beam_8": {
+            "reference": "lakshmi will travel from surat to chennai on wednesday",
+            "baseline_hypothesis": "lucks me will dravel from surerd to jennay on wednesday",
+            "baseline_wer": 0.5555555555555556,
+            "lm_hypothesis": "lucks me will dravel from surerd to jennay on wednesday",
+            "lm_wer": 0.5555555555555556,
+            "alpha": 0.0
+        },
+        "sentence_4_beam_1": {
+            "reference": "the access code for ishaan is two nine three nine zero two",
+            "baseline_hypothesis": "the axes cold for isan is two nine three nine ziro two",
+            "baseline_wer": 0.3333333333333333,
+            "lm_hypothesis": "the axes cold for isan is two nine three nine ziro two",
+            "lm_wer": 0.3333333333333333,
+            "alpha": 0.0
+        },
+        "sentence_4_beam_8": {
+            "reference": "the access code for ishaan is two nine three nine zero two",
+            "baseline_hypothesis": "the axes cold for isan is two nine three nine ziro two",
+            "baseline_wer": 0.3333333333333333,
+            "lm_hypothesis": "the axes cold for isan is two nine three nine ziro two",
+            "lm_wer": 0.3333333333333333,
+            "alpha": 0.0
+        }
+    }
+}

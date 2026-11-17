@@ -1,0 +1,46 @@
+[
+  {
+    "sentence": 0,
+    "numpy_voiced_frames": 213,
+    "numpy_mean_hz": 169.3029609364144,
+    "numpy_min_hz": 115.32427314797675,
+    "numpy_max_hz": 331.7359650904616,
+    "pyin_voiced_frames": 182,
+    "pyin_mean_hz": 131.59864287568732,
+    "pyin_min_hz": 60.0,
+    "pyin_max_hz": 235.87694365086028
+  },
+  {
+    "sentence": 1,
+    "numpy_voiced_frames": 302,
+    "numpy_mean_hz": 176.07531197310408,
+    "numpy_min_hz": 107.95927033578818,
+    "numpy_max_hz": 335.7194225901008,
+    "pyin_voiced_frames": 390,
+    "pyin_mean_hz": 138.21076376316273,
+    "pyin_min_hz": 60.0,
+    "pyin_max_hz": 225.2251192010744
+  },
+  {
+    "sentence": 2,
+    "numpy_voiced_frames": 323,
+    "numpy_mean_hz": 158.7609159147114,
+    "numpy_min_hz": 102.4010025668052,
+    "numpy_max_hz": 286.66555461358934,
+    "pyin_voiced_frames": 450,
+    "pyin_mean_hz": 149.6293783591584,
+    "pyin_min_hz": 60.0,
+    "pyin_max_hz": 230.48950681224102
+  },
+  {
+    "sentence": 3,
+    "numpy_voiced_frames": 377,
+    "numpy_mean_hz": 156.47804272419822,
+    "numpy_min_hz": 100.85797195092782,
+    "numpy_max_hz": 254.28452147944495,
+    "pyin_voiced_frames": 364,
+    "pyin_mean_hz": 157.8564335437944,
+    "pyin_min_hz": 128.61281550435518,
+    "pyin_max_hz": 216.30011102659927
+  }
+]

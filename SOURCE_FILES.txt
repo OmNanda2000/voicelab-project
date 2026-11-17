@@ -1,0 +1,1 @@
+Built from the supplied VoiceLab Starter Kit and student config. Original recordings supplied in conversation. Assignment brief: VoiceLab_Assignment_Brief.pdf.

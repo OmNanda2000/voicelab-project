@@ -1,0 +1,160 @@
+{
+  "roll": "2025AE05387",
+  "fingerprint": "b3baca4b186a1b9f",
+  "code": "293902",
+  "vocab": [
+    "sink",
+    "think",
+    "goat",
+    "coat",
+    "pen",
+    "pan",
+    "cap",
+    "cab",
+    "light",
+    "jam"
+  ],
+  "sentences_spoken": [
+    "book four tickets to indore for shruti",
+    "nine bottles cost forty five rupees in jaipur",
+    "lakshmi will travel from surat to chennai on wednesday",
+    "the access code for ishaan is two nine three nine zero two"
+  ],
+  "sentences_written": [
+    "book 4 tickets to Indore for Shruti",
+    "9 bottles cost Rs. 45 in Jaipur",
+    "Lakshmi will travel from Surat to Chennai on Wed.",
+    "the access code for Ishaan is 293-902"
+  ],
+  "front_end": {
+    "sr": 16000,
+    "frame_ms": 20,
+    "hop_ms": 12,
+    "window": "hamming",
+    "n_mels": 40,
+    "n_mfcc": 13,
+    "preemph": 0.97,
+    "lifter": 0,
+    "delta_N": 3
+  },
+  "hmm": {
+    "states": 3,
+    "heldout_rep": 1,
+    "training_iterations_min": 5
+  },
+  "language_model": {
+    "kn_discount": 0.75
+  },
+  "noise": {
+    "snr_db": [
+      10,
+      0
+    ],
+    "noise_source": "your own recorded room noise"
+  },
+  "decoding": {
+    "beam_widths": [
+      1,
+      8
+    ],
+    "whisper_size": "base"
+  },
+  "tts": {
+    "torchaudio_pipeline": "TACOTRON2_WAVERNN_CHAR_LJSPEECH"
+  },
+  "speaker_seed": 820698,
+  "toy": {
+    "dft_frame": [
+      3,
+      2,
+      -3,
+      2,
+      -3,
+      1,
+      -2,
+      -2
+    ],
+    "hmm": {
+      "A_self": [
+        0.5,
+        0.6
+      ],
+      "B_sym1": [
+        0.7,
+        0.8,
+        0.3
+      ],
+      "obs": [
+        1,
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    "lm": {
+      "mini_corpus": [
+        "ran dog to the ran a",
+        "dog ran on on",
+        "ran cat sat to mat",
+        "mat cat dog ran the",
+        "cat dog a cat sat to",
+        "a to mat to ran a"
+      ],
+      "query_bigram": [
+        "on",
+        "on"
+      ]
+    },
+    "ctc": {
+      "labels": {
+        "0": "blank",
+        "1": "a",
+        "2": "b"
+      },
+      "posteriors": [
+        [
+          0.2,
+          0.7,
+          0.1
+        ],
+        [
+          0.5,
+          0.1,
+          0.4
+        ],
+        [
+          0.4,
+          0.3,
+          0.3
+        ],
+        [
+          0.8,
+          0.1,
+          0.1
+        ]
+      ],
+      "target": "ab"
+    },
+    "wfst": {
+      "paths_phones_to_word": [
+        {
+          "phones": "bca",
+          "word": "w1",
+          "cost": 3
+        },
+        {
+          "phones": "bcc",
+          "word": "w2",
+          "cost": 4
+        },
+        {
+          "phones": "bab",
+          "word": "w3",
+          "cost": 4
+        }
+      ],
+      "semiring": "tropical (min, +)"
+    }
+  }
+}

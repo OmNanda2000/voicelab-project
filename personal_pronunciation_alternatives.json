@@ -1,0 +1,72 @@
+{
+  "bet": {
+    "dictionary": [
+      [
+        "B",
+        "EH1",
+        "T"
+      ]
+    ],
+    "dictionary_weight": 0.7,
+    "alternatives": [
+      {
+        "phones": [
+          "B",
+          "EY1",
+          "T"
+        ],
+        "weight": 0.3
+      }
+    ]
+  },
+  "suggestion": {
+    "dictionary": [
+      [
+        "S",
+        "AH0",
+        "G",
+        "JH",
+        "EH1",
+        "S",
+        "CH",
+        "AH0",
+        "N"
+      ]
+    ],
+    "dictionary_weight": 0.7,
+    "alternatives": [
+      {
+        "phones": [
+          "S",
+          "AH0",
+          "Z",
+          "EH1",
+          "SH",
+          "AH0",
+          "N"
+        ],
+        "weight": 0.3
+      }
+    ]
+  },
+  "honour": {
+    "dictionary": [
+      [
+        "AA1",
+        "N",
+        "ER0"
+      ]
+    ],
+    "dictionary_weight": 0.7,
+    "alternatives": [
+      {
+        "phones": [
+          "AO1",
+          "N",
+          "ER0"
+        ],
+        "weight": 0.3
+      }
+    ]
+  }
+}

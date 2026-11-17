@@ -1,0 +1,105 @@
+{
+    "individual_results": {
+        "sent_0_clean": {
+            "reference": "book four tickets to indore for shruti",
+            "hypothesis": "book four picquets to indoor four truti",
+            "wer": 0.5714285714285714,
+            "substitutions": 4,
+            "deletions": 0,
+            "insertions": 0
+        },
+        "sent_0_snr10": {
+            "reference": "book four tickets to indore for shruti",
+            "hypothesis": "buk fer pigets who indulge pod so te teql",
+            "wer": 1.2857142857142858,
+            "substitutions": 7,
+            "deletions": 0,
+            "insertions": 2
+        },
+        "sent_0_snr0": {
+            "reference": "book four tickets to indore for shruti",
+            "hypothesis": "hok har hars ho who indulge odes i equal",
+            "wer": 1.2857142857142858,
+            "substitutions": 7,
+            "deletions": 0,
+            "insertions": 2
+        },
+        "sent_1_clean": {
+            "reference": "nine bottles cost forty five rupees in jaipur",
+            "hypothesis": "nine bortles cost forty five rupees in jepour",
+            "wer": 0.25,
+            "substitutions": 2,
+            "deletions": 0,
+            "insertions": 0
+        },
+        "sent_1_snr10": {
+            "reference": "nine bottles cost forty five rupees in jaipur",
+            "hypothesis": "nine motens fost fordifi rubis in jaboud",
+            "wer": 0.75,
+            "substitutions": 5,
+            "deletions": 1,
+            "insertions": 0
+        },
+        "sent_1_snr0": {
+            "reference": "nine bottles cost forty five rupees in jaipur",
+            "hypothesis": "hanger weapons fost or defi wboe intibood",
+            "wer": 1.0,
+            "substitutions": 7,
+            "deletions": 1,
+            "insertions": 0
+        },
+        "sent_2_clean": {
+            "reference": "lakshmi will travel from surat to chennai on wednesday",
+            "hypothesis": "lucks me will dravel from surerd to jenay on wednesday",
+            "wer": 0.5555555555555556,
+            "substitutions": 4,
+            "deletions": 0,
+            "insertions": 1
+        },
+        "sent_2_snr10": {
+            "reference": "lakshmi will travel from surat to chennai on wednesday",
+            "hypothesis": "laksmi rilli bravel from suerd du jenao on wednesday",
+            "wer": 0.6666666666666666,
+            "substitutions": 6,
+            "deletions": 0,
+            "insertions": 0
+        },
+        "sent_2_snr0": {
+            "reference": "lakshmi will travel from surat to chennai on wednesday",
+            "hypothesis": "lap stree regin laven rof suder to eat genni ol o agan to day",
+            "wer": 1.4444444444444444,
+            "substitutions": 8,
+            "deletions": 0,
+            "insertions": 5
+        },
+        "sent_3_clean": {
+            "reference": "the access code for ishaan is two nine three nine zero two",
+            "hypothesis": "the axes cold for isan is two nine three nine ziro two",
+            "wer": 0.3333333333333333,
+            "substitutions": 4,
+            "deletions": 0,
+            "insertions": 0
+        },
+        "sent_3_snr10": {
+            "reference": "the access code for ishaan is two nine three nine zero two",
+            "hypothesis": "the axes herd podisan is two nine three nine zido two",
+            "wer": 0.4166666666666667,
+            "substitutions": 4,
+            "deletions": 1,
+            "insertions": 0
+        },
+        "sent_3_snr0": {
+            "reference": "the access code for ishaan is two nine three nine zero two",
+            "hypothesis": "the axes her rodisan is too nine de nine vledo",
+            "wer": 0.6666666666666666,
+            "substitutions": 6,
+            "deletions": 2,
+            "insertions": 0
+        }
+    },
+    "average_wer": {
+        "Clean": 0.42757936507936506,
+        "10 dB": 0.7797619047619047,
+        "0 dB": 1.0992063492063493
+    }
+}

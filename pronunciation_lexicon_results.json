@@ -1,0 +1,100 @@
+{
+  "hello": {
+    "word": "hello",
+    "source": "CMUdict",
+    "pronunciations": [
+      [
+        "HH",
+        "AH0",
+        "L",
+        "OW1"
+      ],
+      [
+        "HH",
+        "EH0",
+        "L",
+        "OW1"
+      ]
+    ]
+  },
+  "computer": {
+    "word": "computer",
+    "source": "CMUdict",
+    "pronunciations": [
+      [
+        "K",
+        "AH0",
+        "M",
+        "P",
+        "Y",
+        "UW1",
+        "T",
+        "ER0"
+      ]
+    ]
+  },
+  "speech": {
+    "word": "speech",
+    "source": "CMUdict",
+    "pronunciations": [
+      [
+        "S",
+        "P",
+        "IY1",
+        "CH"
+      ]
+    ]
+  },
+  "language": {
+    "word": "language",
+    "source": "CMUdict",
+    "pronunciations": [
+      [
+        "L",
+        "AE1",
+        "NG",
+        "G",
+        "W",
+        "AH0",
+        "JH"
+      ],
+      [
+        "L",
+        "AE1",
+        "NG",
+        "G",
+        "W",
+        "IH0",
+        "JH"
+      ]
+    ]
+  },
+  "voicelab2025": {
+    "word": "voicelab2025",
+    "source": "G2P fallback",
+    "pronunciations": [
+      [
+        "V",
+        "OY1",
+        "S",
+        "AH0",
+        "L",
+        "T",
+        "AH0",
+        "TH",
+        "AH0",
+        "T",
+        "IY0",
+        "T",
+        "W",
+        "EH1",
+        "N",
+        "T",
+        "IH0",
+        "V",
+        "AY2",
+        "F"
+      ]
+    ]
+  }
+}

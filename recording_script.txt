@@ -1,0 +1,45 @@
+BLOCK 1: WORDS  (record as data/original/words_block.wav)
+Silence 1 s, say the code, pause 2 s. Then each line below: say the word once, pause 2 s.
+  CODE: 2 9 3 9 0 2
+  sink   (repetition 0)
+  sink   (repetition 1)
+  sink   (repetition 2)
+  think   (repetition 0)
+  think   (repetition 1)
+  think   (repetition 2)
+  goat   (repetition 0)
+  goat   (repetition 1)
+  goat   (repetition 2)
+  coat   (repetition 0)
+  coat   (repetition 1)
+  coat   (repetition 2)
+  pen   (repetition 0)
+  pen   (repetition 1)
+  pen   (repetition 2)
+  pan   (repetition 0)
+  pan   (repetition 1)
+  pan   (repetition 2)
+  cap   (repetition 0)
+  cap   (repetition 1)
+  cap   (repetition 2)
+  cab   (repetition 0)
+  cab   (repetition 1)
+  cab   (repetition 2)
+  light   (repetition 0)
+  light   (repetition 1)
+  light   (repetition 2)
+  jam   (repetition 0)
+  jam   (repetition 1)
+  jam   (repetition 2)
+
+BLOCK 2: SENTENCES  (record as data/original/sentences_block.wav)
+Silence 1 s, say the code, pause 2 s. Then each sentence once, pause 2 s after each.
+  CODE: 2 9 3 9 0 2
+  sentence 0: book four tickets to indore for shruti
+  sentence 1: nine bottles cost forty five rupees in jaipur
+  sentence 2: lakshmi will travel from surat to chennai on wednesday
+  sentence 3: the access code for ishaan is two nine three nine zero two
+
+BLOCK 3: ROOM NOISE  (record as data/original/noise_block.wav)
+Silence 1 s, say the code, then stay completely silent for about 11 s and stop.
+  CODE: 2 9 3 9 0 2
