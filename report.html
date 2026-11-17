@@ -1,0 +1,23 @@
+<html><head><meta charset='utf-8'><style>@page{size:A4;margin:1.6cm}body{font-family:Georgia,serif;font-size:10pt;line-height:1.3;color:#000}h1{font-size:15pt}h2{font-size:12pt;margin:10pt 0 3pt}table{border-collapse:collapse;font-size:9pt}td,th{border:1px solid #000;padding:2px 5px}img{max-width:100%;max-height:7cm}em{color:#333}p,li{margin:3pt 0}</style></head><body><h1>VoiceLab Project Report — 2025AE05387</h1>
+<p><strong>Configuration:</strong> 10 words; 4 spoken sentences; 16 kHz; 25 ms frame; 8 ms hop; Hamming window; 32 mel filters; 13 MFCCs; 3-state HMM; held-out repetition 1; 5 training iterations; noise SNR 10/0 dB; beam widths 1/8; Whisper base.</p>
+<p>This report is based on saved notebook outputs and project artifacts. It does not claim a fresh clean-runtime rerun.</p>
+<h2>Part 0 — Dataset and audit</h2>
+<p>The archive contains 30 word clips, four sentence clips, original recording blocks, room noise and noisy clips. The saved audit reports 0% clipping for sentence clips; goat_1.wav and goat_2.wav each show approximately 3.3% clipping and should be checked.</p>
+<h2>Part 1 — Signal analysis and features</h2>
+<p>The notebook includes waveform/spectrograms, wideband/narrowband comparison, NumPy/SciPy MFCC compared with Librosa, and autocorrelation F0 compared with pYIN. The saved MFCC example is 60×13 for cab_0.wav with differences around 10^-7. Three F0 JSON generations disagree and need consolidation.</p>
+<h2>Part 2 — HMM</h2>
+<p>Diagonal-Gaussian log emissions, Forward/Viterbi and segmental K-means are implemented. Held-out accuracy is 9/10 (90%); think was classified as sink. Toy Forward and Viterbi checks are in results.json.</p>
+<h2>Part 3 — CTC</h2>
+<p>CTC forward recursion is implemented in log space with blank expansion and repeated-label transition restriction. Saved toy probability is 0.3073; NumPy/PyTorch CTCLoss comparison is approximately 0.307300 vs 0.30729994. Add the required RNN-T and attention comparison to the written discussion.</p>
+<h2>Part 4 — Language model and lexicon</h2>
+<p>Brown corpus evaluation uses 51,147 training sentences, 24,718 vocabulary items, four held-out sentences, five OOV tokens mapped to <UNK>, and minimum count 2. Saved perplexities: add-one 3522.3225; interpolated Kneser–Ney 638.2692. CMUdict, G2P fallback and three personal pronunciation alternatives are present.</p>
+<h2>Part 5 — WFST</h2>
+<p>The toy lexicon has 10 states, determinises to 7 and minimises to 5. The notebook records three toy phone-to-word paths and L∘G composition for two sentences. The design log still flags a clean-kernel rerun for composition; reconcile this with the recorded notebook outputs and include one explicit hand-checked path cost.</p>
+<h2>Part 6 — Recognisers, search and decoding</h2>
+<p>The custom WER implementation is checked against jiwer for four Whisper clean cases. Beam-search tuning sentences are 1–2 and held-out sentences are 3–4. All tested alpha values give tuning WER 0.4107; selected alpha is 0.0. Held-out LM WER equals baseline: sentence 3 = 0.5556; sentence 4 = 0.3333. No measurable LM-fusion gain is shown. Saved wav2vec2 greedy WER averages are 0.4276 clean, 0.7798 at 10 dB, and 1.0992 at 0 dB. <strong>No noisy-condition Whisper WER results are present</strong>, although the assignment requires WER-versus-SNR for both recognisers.</p>
+<h2>Part 7 — Synthesis</h2>
+<p>STFT/ISTFT reports equal 83,200-sample lengths and RMSE 0.0001803. Griffin–Lim ran 30 iterations; saved convergence is 0.1370159. TTS output is 22,050 Hz and about 2.345 s. Mean STOI is 0.8692 at 10 dB and 0.6914 at 0 dB. Add the text-normaliser exact-match count and failure analysis, a direct neural-TTS versus Griffin–Lim comparison, and a comment on what STOI misses.</p>
+<h2>Findings</h2>
+<p>The only HMM held-out error is think→sink. Kneser–Ney perplexity is lower than add-one. Wav2vec2 recognition degrades as SNR decreases. The saved LM-weight sweep is flat and shows no measurable held-out gain. STOI is lower at 0 dB than at 10 dB.</p>
+<h2>Submission readiness</h2>
+<p>This archive is <strong>not yet ready to submit</strong>. The supplied ZIP has no <code>.git</code> directory/real commit history. The notebook has 203 executed and 10 unexecuted code cells; no stored error outputs are present, but a fresh <code>run_all.sh</code> execution has not been evidenced. The design log has been cleaned for duplicate Part 1–3 entries and corrected for alpha/convergence values. Complete both-recogniser noise evaluation, Part 7 exact-match/failure analysis and TTS comparison, then test <code>run_all.sh</code> in a fresh Colab session. The assignment report must be no more than four pages.</p></body></html>

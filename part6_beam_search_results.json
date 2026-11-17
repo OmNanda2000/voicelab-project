@@ -41,9 +41,9 @@
     "heldout_results": {
         "sentence_3_beam_1": {
             "reference": "lakshmi will travel from surat to chennai on wednesday",
-            "baseline_hypothesis": "lucks me will dravel from surerd to jenay on wednesday",
+            "baseline_hypothesis": "lucks me will dravel from surerd to jennay on wednesday",
             "baseline_wer": 0.5555555555555556,
-            "lm_hypothesis": "lucks me will dravel from surerd to jenay on wednesday",
+            "lm_hypothesis": "lucks me will dravel from surerd to jennay on wednesday",
             "lm_wer": 0.5555555555555556,
             "alpha": 0.0
         },
