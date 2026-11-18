@@ -64,6 +64,7 @@ class FST:
 
 
 
+
 def compose(a, b):
     """Compose two FSTs using tropical weights and epsilon transitions."""
     from collections import deque

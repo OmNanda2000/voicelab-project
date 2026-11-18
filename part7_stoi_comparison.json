@@ -1,0 +1,15 @@
+{
+    "reference_sentence": "book four tickets to indore for shruti",
+    "sample_rate": 16000,
+    "griffin_lim_30_stoi": 0.9203937253745395,
+    "griffin_lim_duration_seconds": 5.2,
+    "neural_tts_stoi": null,
+    "neural_tts_stoi_reason": "Not calculated: independently generated TTS has different timing and prosody and is not time-aligned with the original recording. Naive truncation would not provide a valid STOI comparison.",
+    "neural_tts_durations_seconds": {
+        "1": 3.417233560090703,
+        "2": 3.1553287981859413,
+        "3": 3.3174603174603177,
+        "4": 3.816326530612245
+    },
+    "neural_tts_subjective_evaluation": "All four recordings were intelligible and complete, with no noticeable mispronunciations or unusual pauses. The voice sounded reasonably natural."
+}

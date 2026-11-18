@@ -1,0 +1,212 @@
+{
+    "wav2vec2": {
+        "individual_results": {
+            "sent_0_clean": {
+                "reference": "book four tickets to indore for shruti",
+                "hypothesis": "book four picquets to indoor four truti",
+                "wer": 0.5714285714285714,
+                "substitutions": 4,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_0_snr10": {
+                "reference": "book four tickets to indore for shruti",
+                "hypothesis": "buk far pigets who indulge bod so te teql",
+                "wer": 1.2857142857142858,
+                "substitutions": 7,
+                "deletions": 0,
+                "insertions": 2
+            },
+            "sent_0_snr0": {
+                "reference": "book four tickets to indore for shruti",
+                "hypothesis": "hok hair hads tho who indulge odes  equal",
+                "wer": 1.1428571428571428,
+                "substitutions": 7,
+                "deletions": 0,
+                "insertions": 1
+            },
+            "sent_1_clean": {
+                "reference": "nine bottles cost forty five rupees in jaipur",
+                "hypothesis": "nine bortles cost forty five rupees in jepour",
+                "wer": 0.25,
+                "substitutions": 2,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_1_snr10": {
+                "reference": "nine bottles cost forty five rupees in jaipur",
+                "hypothesis": "nine motens fost fordifi rubis in jaboud",
+                "wer": 0.75,
+                "substitutions": 5,
+                "deletions": 1,
+                "insertions": 0
+            },
+            "sent_1_snr0": {
+                "reference": "nine bottles cost forty five rupees in jaipur",
+                "hypothesis": "hanger wepons fost or devi boe in tibood",
+                "wer": 0.875,
+                "substitutions": 7,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_2_clean": {
+                "reference": "lakshmi will travel from surat to chennai on wednesday",
+                "hypothesis": "lucks me will dravel from surerd to jennay on wednesday",
+                "wer": 0.5555555555555556,
+                "substitutions": 4,
+                "deletions": 0,
+                "insertions": 1
+            },
+            "sent_2_snr10": {
+                "reference": "lakshmi will travel from surat to chennai on wednesday",
+                "hypothesis": "laksmi rilli bravel from suerd du jenao on wednesday",
+                "wer": 0.6666666666666666,
+                "substitutions": 6,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_2_snr0": {
+                "reference": "lakshmi will travel from surat to chennai on wednesday",
+                "hypothesis": "lapstree regin laven rof suder to eatgenni ole on egan to day",
+                "wer": 1.1111111111111112,
+                "substitutions": 7,
+                "deletions": 0,
+                "insertions": 3
+            },
+            "sent_3_clean": {
+                "reference": "the access code for ishaan is two nine three nine zero two",
+                "hypothesis": "the axes cold for isan is two nine three nine ziro two",
+                "wer": 0.3333333333333333,
+                "substitutions": 4,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_3_snr10": {
+                "reference": "the access code for ishaan is two nine three nine zero two",
+                "hypothesis": "the axes herd podisan is two nine three nine zido two",
+                "wer": 0.4166666666666667,
+                "substitutions": 4,
+                "deletions": 1,
+                "insertions": 0
+            },
+            "sent_3_snr0": {
+                "reference": "the access code for ishaan is two nine three nine zero two",
+                "hypothesis": "the axis her rodisan is too nine de nine vedo",
+                "wer": 0.6666666666666666,
+                "substitutions": 6,
+                "deletions": 2,
+                "insertions": 0
+            }
+        },
+        "average_wer": {
+            "clean": 0.42757936507936506,
+            "snr10": 0.7797619047619047,
+            "snr0": 0.9489087301587301
+        }
+    },
+    "whisper": {
+        "individual_results": {
+            "sent_0_clean": {
+                "reference": "book four tickets to indore for shruti",
+                "hypothesis": "book four tickets to Indover for Sruti.",
+                "wer": 0.2857142857142857,
+                "substitutions": 2,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_0_snr10": {
+                "reference": "book four tickets to indore for shruti",
+                "hypothesis": "book 4 tickets to Indore for Sruti.",
+                "wer": 0.2857142857142857,
+                "substitutions": 2,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_0_snr0": {
+                "reference": "book four tickets to indore for shruti",
+                "hypothesis": "Book 4 decades book indoor for Sruti",
+                "wer": 0.7142857142857143,
+                "substitutions": 5,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_1_clean": {
+                "reference": "nine bottles cost forty five rupees in jaipur",
+                "hypothesis": "9 bottles cost 45 rupees in Jaipur.",
+                "wer": 0.5,
+                "substitutions": 3,
+                "deletions": 1,
+                "insertions": 0
+            },
+            "sent_1_snr10": {
+                "reference": "nine bottles cost forty five rupees in jaipur",
+                "hypothesis": "9 hotels cost 45 rupees in Jaipur.",
+                "wer": 0.625,
+                "substitutions": 4,
+                "deletions": 1,
+                "insertions": 0
+            },
+            "sent_1_snr0": {
+                "reference": "nine bottles cost forty five rupees in jaipur",
+                "hypothesis": "9 protons cost 45 rupees in Jaipur.",
+                "wer": 0.625,
+                "substitutions": 4,
+                "deletions": 1,
+                "insertions": 0
+            },
+            "sent_2_clean": {
+                "reference": "lakshmi will travel from surat to chennai on wednesday",
+                "hypothesis": "Luxmi will travel from Surat to Chennai on Wednesday.",
+                "wer": 0.2222222222222222,
+                "substitutions": 2,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_2_snr10": {
+                "reference": "lakshmi will travel from surat to chennai on wednesday",
+                "hypothesis": "Luxmi will travel from Surat to Chennai on Wednesday.",
+                "wer": 0.2222222222222222,
+                "substitutions": 2,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_2_snr0": {
+                "reference": "lakshmi will travel from surat to chennai on wednesday",
+                "hypothesis": "Lakshmi will travel from Surat to Chennai on Wednesday.",
+                "wer": 0.1111111111111111,
+                "substitutions": 1,
+                "deletions": 0,
+                "insertions": 0
+            },
+            "sent_3_clean": {
+                "reference": "the access code for ishaan is two nine three nine zero two",
+                "hypothesis": "The access code for Esan is 293902.",
+                "wer": 0.5833333333333334,
+                "substitutions": 2,
+                "deletions": 5,
+                "insertions": 0
+            },
+            "sent_3_snr10": {
+                "reference": "the access code for ishaan is two nine three nine zero two",
+                "hypothesis": "The access code for Isan is 293902",
+                "wer": 0.5833333333333334,
+                "substitutions": 2,
+                "deletions": 5,
+                "insertions": 0
+            },
+            "sent_3_snr0": {
+                "reference": "the access code for ishaan is two nine three nine zero two",
+                "hypothesis": "The access code for ISAN is 293902.",
+                "wer": 0.5833333333333334,
+                "substitutions": 2,
+                "deletions": 5,
+                "insertions": 0
+            }
+        },
+        "average_wer": {
+            "clean": 0.39781746031746035,
+            "snr10": 0.42906746031746035,
+            "snr0": 0.5084325396825398
+        }
+    }
+}

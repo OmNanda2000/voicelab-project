@@ -3,9 +3,11 @@
   "brown_training_vocabulary": 24718,
   "brown_evaluation_sentences": 4,
   "brown_minimum_word_count": 2,
-  "brown_unknown_word_handling": "Rare training and unseen evaluation words mapped to <UNK>",
+  "brown_unknown_word_handling": "Words occurring fewer than 2 times in training mapped to <UNK>",
   "brown_add_one_perplexity": 3522.322541601353,
   "brown_kn_perplexity": 638.2691669070995,
   "brown_split": "First 90% chronological training, remaining 10% testing",
-  "brown_evaluation": "First four sentences of held-out test split"
+  "brown_evaluation": "First four sentences of held-out test split",
+  "brown_evaluation_unk_tokens": 5,
+  "brown_min_count_threshold": 2
 }

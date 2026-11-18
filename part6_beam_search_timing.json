@@ -1,0 +1,62 @@
+{
+    "selected_alpha": 0.0,
+    "repetitions_per_sentence": 10,
+    "heldout_sentences": [
+        3,
+        4
+    ],
+    "individual_results": {
+        "sentence_3_beam_1": {
+            "sentence": 3,
+            "beam_width": 1,
+            "alpha": 0.0,
+            "repetitions": 10,
+            "average_time_seconds": 0.052397974600080485,
+            "std_time_seconds": 0.01102510198524563,
+            "average_time_ms": 52.39797460008049,
+            "hypothesis": "lucks me will dravel from surerd to jennay on wednesday"
+        },
+        "sentence_3_beam_8": {
+            "sentence": 3,
+            "beam_width": 8,
+            "alpha": 0.0,
+            "repetitions": 10,
+            "average_time_seconds": 0.3550969267000255,
+            "std_time_seconds": 0.025018583049343752,
+            "average_time_ms": 355.0969267000255,
+            "hypothesis": "lucks me will dravel from surerd to jennay on wednesday"
+        },
+        "sentence_4_beam_1": {
+            "sentence": 4,
+            "beam_width": 1,
+            "alpha": 0.0,
+            "repetitions": 10,
+            "average_time_seconds": 0.03956439409994346,
+            "std_time_seconds": 0.004711645932194178,
+            "average_time_ms": 39.564394099943456,
+            "hypothesis": "the axes cold for isan is two nine three nine ziro two"
+        },
+        "sentence_4_beam_8": {
+            "sentence": 4,
+            "beam_width": 8,
+            "alpha": 0.0,
+            "repetitions": 10,
+            "average_time_seconds": 0.5330177804000413,
+            "std_time_seconds": 0.09444984564637027,
+            "average_time_ms": 533.0177804000414,
+            "hypothesis": "the axes cold for isan is two nine three nine ziro two"
+        }
+    },
+    "average_by_beam_width": {
+        "1": {
+            "beam_width": 1,
+            "average_time_seconds": 0.04598118435001197,
+            "average_time_ms": 45.98118435001197
+        },
+        "8": {
+            "beam_width": 8,
+            "average_time_seconds": 0.4440573535500334,
+            "average_time_ms": 444.0573535500334
+        }
+    }
+}

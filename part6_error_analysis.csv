@@ -1,0 +1,7 @@
+Model,Condition,Average WER,Total Substitutions,Total Deletions,Total Insertions,Total Errors
+Whisper,Clean,0.39781746031746035,9,6,0,15
+Whisper,10 dB,0.42906746031746035,10,6,0,16
+Whisper,0 dB,0.5084325396825398,12,6,0,18
+wav2vec2,Clean,0.42757936507936506,14,0,1,15
+wav2vec2,10 dB,0.7797619047619047,22,2,2,26
+wav2vec2,0 dB,0.9489087301587301,27,2,4,33

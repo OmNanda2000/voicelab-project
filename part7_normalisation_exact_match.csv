@@ -1,0 +1,5 @@
+Sentence,Reference,Whisper Normalised,Whisper Exact Match,wav2vec2 Normalised,wav2vec2 Exact Match
+1,book 4 tickets to indore for shruti,book 4 tickets to indover for sruti,False,book 4 picquets to indoor 4 truti,False
+2,9 bottles cost 45 rupees in jaipur,9 bottles cost 45 rupees in jaipur,True,9 bortles cost 45 rupees in jepour,False
+3,lakshmi will travel from surat to chennai on wednesday,luxmi will travel from surat to chennai on wednesday,False,lucks me will dravel from surerd to jennay on wednesday,False
+4,the access code for ishaan is 293902,the access code for esan is 293902,False,the axes cold for isan is 2939 ziro 2,False
