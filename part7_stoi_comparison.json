@@ -6,10 +6,10 @@
     "neural_tts_stoi": null,
     "neural_tts_stoi_reason": "Not calculated: independently generated TTS has different timing and prosody and is not time-aligned with the original recording. Naive truncation would not provide a valid STOI comparison.",
     "neural_tts_durations_seconds": {
-        "1": 2.419501133786848,
-        "2": 3.3174603174603177,
-        "3": 3.379818594104308,
-        "4": 3.941043083900227
+        "1": 2.4569160997732427,
+        "2": 3.4546485260770976,
+        "3": 3.1927437641723357,
+        "4": 4.140589569160998
     },
     "neural_tts_subjective_evaluation": "All four recordings were intelligible and complete, with no noticeable mispronunciations or unusual pauses. The voice sounded reasonably natural."
 }
