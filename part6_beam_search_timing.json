@@ -11,9 +11,9 @@
             "beam_width": 1,
             "alpha": 0.0,
             "repetitions": 10,
-            "average_time_seconds": 0.04210611469998184,
-            "std_time_seconds": 0.0076757405672168814,
-            "average_time_ms": 42.106114699981845,
+            "average_time_seconds": 0.020012812400000256,
+            "std_time_seconds": 0.0006340251829090335,
+            "average_time_ms": 20.012812400000257,
             "hypothesis": "lucks me will dravel from surerd to jennay on wednesday"
         },
         "sentence_3_beam_8": {
@@ -21,9 +21,9 @@
             "beam_width": 8,
             "alpha": 0.0,
             "repetitions": 10,
-            "average_time_seconds": 0.6520789329000081,
-            "std_time_seconds": 0.26474186608527034,
-            "average_time_ms": 652.0789329000081,
+            "average_time_seconds": 0.17659116790000554,
+            "std_time_seconds": 0.009801588428365975,
+            "average_time_ms": 176.59116790000553,
             "hypothesis": "lucks me will dravel from surerd to jennay on wednesday"
         },
         "sentence_4_beam_1": {
@@ -31,9 +31,9 @@
             "beam_width": 1,
             "alpha": 0.0,
             "repetitions": 10,
-            "average_time_seconds": 0.05649822590003169,
-            "std_time_seconds": 0.024459695035285233,
-            "average_time_ms": 56.498225900031684,
+            "average_time_seconds": 0.018358670499969774,
+            "std_time_seconds": 0.0005979276619585575,
+            "average_time_ms": 18.358670499969776,
             "hypothesis": "the axes cold for isan is two nine three nine ziro two"
         },
         "sentence_4_beam_8": {
@@ -41,22 +41,22 @@
             "beam_width": 8,
             "alpha": 0.0,
             "repetitions": 10,
-            "average_time_seconds": 0.308241809799938,
-            "std_time_seconds": 0.08077202526208138,
-            "average_time_ms": 308.241809799938,
+            "average_time_seconds": 0.17313614889994824,
+            "std_time_seconds": 0.04094388457396474,
+            "average_time_ms": 173.13614889994824,
             "hypothesis": "the axes cold for isan is two nine three nine ziro two"
         }
     },
     "average_by_beam_width": {
         "1": {
             "beam_width": 1,
-            "average_time_seconds": 0.04930217030000676,
-            "average_time_ms": 49.302170300006765
+            "average_time_seconds": 0.019185741449985014,
+            "average_time_ms": 19.185741449985013
         },
         "8": {
             "beam_width": 8,
-            "average_time_seconds": 0.480160371349973,
-            "average_time_ms": 480.16037134997305
+            "average_time_seconds": 0.1748636583999769,
+            "average_time_ms": 174.86365839997688
         }
     }
 }

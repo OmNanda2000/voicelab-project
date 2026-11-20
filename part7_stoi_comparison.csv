@@ -1,6 +1,6 @@
 Method,Duration (seconds),STOI,Evaluation
 Griffin-Lim (30 iterations),5.2,0.9204,Objective STOI against original recording
-Neural TTS - Sentence 1,2.457,N/A,Subjective listening; separate synthesis
-Neural TTS - Sentence 2,3.455,N/A,Subjective listening; separate synthesis
-Neural TTS - Sentence 3,3.193,N/A,Subjective listening; separate synthesis
-Neural TTS - Sentence 4,4.141,N/A,Subjective listening; separate synthesis
+Neural TTS - Sentence 1,3.455,N/A,Subjective listening; separate synthesis
+Neural TTS - Sentence 2,3.467,N/A,Subjective listening; separate synthesis
+Neural TTS - Sentence 3,3.592,N/A,Subjective listening; separate synthesis
+Neural TTS - Sentence 4,3.704,N/A,Subjective listening; separate synthesis

@@ -2,7 +2,7 @@
 
 **Configuration:** 10 words; 4 spoken sentences; 16 kHz; 25 ms frame; 8 ms hop; Hamming window; 32 mel filters; 13 MFCCs; 3-state HMM; held-out repetition 1; 5 training iterations; noise SNR 10/0 dB; beam widths 1/8; Whisper base.
 
-This report is based on saved notebook outputs and project artifacts. It does not claim a fresh clean-runtime rerun.
+This report is based on saved notebook outputs and project artifacts. The run_all.sh execution completed successfully in Colab. Part 5 composition and own-sentence decoding retain the verification caveat documented below.
 
 ## Part 0 — Dataset and audit
 
@@ -46,7 +46,7 @@ Error analysis showed that substitutions were the dominant error type. At 0 dB, 
 
 CTC prefix beam search with language-model fusion was evaluated using beam widths 1 and 8. Sentences 1–2 were used for tuning, while sentences 3–4 were held out. All tested language-model weights produced a tuning WER of 0.4107; therefore, alpha = 0.0 was selected. The held-out WER remained 0.4444, equal to the baseline, indicating no measurable benefit from language-model fusion.
 
-Average decoding time increased from 45.98 ms at beam width 1 to 444.06 ms at beam width 8, approximately 9.66 times slower. Thus, the wider beam increased computational cost without improving the observed held-out WER.
+Average decoding time increased from 19.19 ms at beam width 1 to 174.86 ms at beam width 8, approximately 9.11 times slower. Thus, the wider beam increased computational cost without improving the observed held-out WER.
 
 ## Part 7 — Synthesis
 
@@ -64,7 +64,7 @@ This written-to-spoken evaluation is distinct from the Part 6 ASR exact-match ev
 
 ### Neural TTS and comparison
 
-The configured Tacotron2-WaveRNN pipeline generated four outputs at 22,050 Hz. Their recorded durations were approximately 3.417, 3.155, 3.317 and 3.816 seconds. Subjective listening found all four outputs intelligible and complete, with no noticeable mispronunciations or unusual pauses; the voice sounded reasonably natural.
+The configured Tacotron2-WaveRNN pipeline generated four outputs at 22,050 Hz. Their recorded durations were approximately 3.455, 3.467, 3.592 and 3.704 seconds. Subjective listening found all four outputs intelligible and complete, with no noticeable mispronunciations or unusual pauses; the voice sounded reasonably natural.
 
 The 30-iteration Griffin–Lim reconstruction achieved a STOI score of 0.9204 against the original recording. A direct STOI score was not reported for the independently generated Neural TTS outputs because their timing and prosody differ from the reference recording; truncating them to equal length would not establish valid temporal alignment. The synthesis methods are therefore compared using the objective Griffin–Lim STOI result and the listening-based assessment of Neural TTS, rather than presenting incomparable scores as if they were measured on aligned signals.
 
@@ -74,12 +74,9 @@ STOI estimates short-time objective intelligibility, but does not fully measure 
 
 The only HMM held-out error is think→sink. Kneser–Ney perplexity is lower than add-one. Wav2vec2 recognition degrades as SNR decreases. The saved LM-weight sweep is flat and shows no measurable held-out gain. STOI is lower at 0 dB than at 10 dB.
 
-**Text Normalisation Results**
-
-A rule-based written-to-spoken text normaliser was implemented to convert numeric expressions, currency notation, abbreviations and hyphenated digit sequences into their spoken forms. The implementation was evaluated against all four personal spoken sentences.
+The rule-based written-to-spoken text normaliser was implemented to convert numeric expressions, currency notation, abbreviations and hyphenated digit sequences into their spoken forms. The implementation was evaluated against all four personal spoken sentences.
 
 All four normalised outputs matched their corresponding spoken references exactly, achieving an exact-match accuracy of 100% (4/4).
-
 The rules successfully handled:
 - Numeric conversion, including 4 and 9.
 - Currency expansion and placement: Rs. 45 → forty five rupees.
@@ -89,5 +86,4 @@ The rules successfully handled:
 No mismatches were observed in the four evaluation sentences. However, this result demonstrates performance on the selected sentences and does not establish coverage of every possible number, currency or abbreviation format.
 
 ## Submission readiness
-
-The archive contains the notebook, configuration, saved experimental outputs, report source, design log, AI-use statement and execution script. The saved results include all ten required `results.json` keys. The report reflects the saved Part 6 noise evaluation and Part 7 Mel-based convergence and normalisation results. However, a fresh clean-runtime execution of `run_all.sh` has not been evidenced in this archive, and the design log still identifies Part 5 composition/decoding as requiring a clean-kernel rerun. These limitations are stated explicitly rather than claiming unperformed verification. The final PDF is generated from this Markdown report and should be checked to remain within the four-page assignment limit.
+The project contains the notebook, configuration, saved experimental outputs, report source, design log, AI-use statement and execution script. The saved results include all ten required results.json keys. The run_all.sh execution completed successfully in Colab. Part 5 WFST composition and own-sentence decoding retain a clean-kernel verification caveat in the design log and are not claimed as independently verified. The final PDF is generated from this Markdown report and checked against the four-page assignment limit.
